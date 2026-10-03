@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b1827; /* Dark navy blue from background_color.png */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 80px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.contact-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+    min-width: 180px;
+    text-align: center;
+}
+
+.contact-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.linkedin-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.linkedin-icon i {
+    font-size: 28px;
+}
+
+.linkedin-icon:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.copyright {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .buttons-container {
+        gap: 10px;
+    }
+    
+    .contact-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        min-width: 160px;
+    }
+    
+    .linkedin-icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .linkedin-icon i {
+        font-size: 24px;
+    }
+    
+    .footer-links a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 90%;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .footer-links a {
+        margin: 0;
+        font-size: 13px;
+    }
+}
