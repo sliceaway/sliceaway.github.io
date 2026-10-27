@@ -1,6 +1,8 @@
 adyoulike.com, 2d578cf695c89ec2ba707280319d2020, RESELLER
 algorix.co, 60532, RESELLER, 5b394c12fea27a1d
 applovin.com, d10d1bba35f8d1aa0b33955c96486d20, DIRECT
+bidease.com, bidease_seller_26, RESELLER
+bigo.sg, qyfoptvec9, RESELLER
 contextweb.com , 562615, RESELLER, 89ff185a4c4e857c
 facebook.com, 1435015435397077, DIRECT, c3e20eee3f780d68
 facebook.com, 698130606430420, DIRECT, c3e20eee3f780d68
@@ -32,9 +34,11 @@ sharethrough.com, bXzzb1bR, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, NNB0Zl76, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UbYLkrys, RESELLER, d53b998a7bd4ecd2
 smartadserver.com, 3817, RESELLER
+taurusx.com, 70119, RESELLER
 thunder-monetize.com, 6343837988, RESELLER
 video.unrulymedia.com, 169764768, RESELLER
 video.unrulymedia.com, 322585001, RESELLER
+video.unrulymedia.com, 841707281, RESELLER, 98c21ef9a666c68b
 xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
 yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
